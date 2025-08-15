@@ -38,8 +38,9 @@ if __name__ == "__main__":
     agent = Agent(
         model=OpenAIChat(id="gpt-4o"),
         knowledge=knowledge_base,
-        # add_references=True to automatically add references from the knowledge base
-        # to the Agent’s prompt. This is the traditional 2023 RAG approach.
+        # add_references=True always adds information from the knowledge base to the prompt,
+        # regardless of whether it is relevant to the question or helpful.
+        # This is the traditional 2023 RAG approach.
         add_references=True,
         # We can set search_knowledge=True to add a search_knowledge_base() tool to the Agent.
         # Or False so agent does not search knowledge base.
