@@ -17,4 +17,4 @@ if __name__ == "__main__":
     agent.print_response("What was my last question?")
     agent.print_response("What is the capital of France?")
     agent.print_response("What was my last question?")
-    #pprint(agent.get_messages_for_session())
+    # pprint(agent.get_messages_for_session())

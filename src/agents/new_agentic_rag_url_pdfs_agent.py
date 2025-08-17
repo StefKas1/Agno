@@ -26,7 +26,9 @@ if __name__ == "__main__":
     db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai"
     knowledge_base = PDFUrlKnowledgeBase(
         urls=["https://agno-public.s3.amazonaws.com/recipes/ThaiRecipes.pdf"],
-        vector_db=PgVector(table_name="recipes", db_url=db_url, search_type=SearchType.hybrid),
+        vector_db=PgVector(
+            table_name="recipes", db_url=db_url, search_type=SearchType.hybrid
+        ),
     )
     # Load the knowledge base: Comment out after first run
     knowledge_base.load(upsert=True)
@@ -42,5 +44,7 @@ if __name__ == "__main__":
         markdown=True,
         # debug_mode=True,
     )
-    agent.print_response("How do I make chicken and galangal in coconut milk soup", stream=True)
+    agent.print_response(
+        "How do I make chicken and galangal in coconut milk soup", stream=True
+    )
     agent.print_response("What was my last question?", markdown=True)
