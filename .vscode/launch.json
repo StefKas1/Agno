@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run storage_cli_agent.py --new",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/agents/storage_cli_agent.py",
+      "args": ["--new"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
