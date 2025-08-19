@@ -55,6 +55,17 @@ if __name__ == "__main__":
         markdown=True,
     )
 
+    # Or set add_context=True to add the entire context to the user message.
+    # This way you don’t have to manually add the context to the instructions.
+    # # Create a Context-Aware Agent that can access real-time HackerNews data
+    # agent = Agent(
+    #     model=OpenAIChat(id="gpt-4o"),
+    #     context={"top_hackernews_stories": get_top_hackernews_stories},
+    #     # We can add the entire context dictionary to the instructions
+    #     add_context=True,
+    #     markdown=True,
+    # )
+
     # Example usage
     agent.print_response(
         "Summarize the top stories on HackerNews and identify any interesting trends.",
