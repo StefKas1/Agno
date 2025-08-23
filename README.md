@@ -4,6 +4,7 @@
 
 - Repository: https://github.com/agno-agi/agno
 - Documentation: https://docs.agno.com/introduction
+- Self-hosted agent UI: https://docs.agno.com/agent-ui/introduction
 
 ## Collection information
 
