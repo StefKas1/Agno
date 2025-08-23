@@ -59,9 +59,7 @@ hackernews_team = Team(
 load_dotenv()
 
 # Run the team
-report = hackernews_team.run(
-    "What are the top stories on hackernews?"
-).content
+report = hackernews_team.run("What are the top stories on hackernews?").content
 
 print(f"Title: {report.title}")
 print(f"Summary: {report.summary}")
