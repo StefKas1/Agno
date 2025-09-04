@@ -8,6 +8,7 @@
 - Supported models: https://docs.agno.com/models/introduction
 - Model compatibility: https://docs.agno.com/models/compatibility
 - Model usage examples (see left sidebar for more): https://docs.agno.com/models/openai-like
+- Available built-in toolkits: https://docs.agno.com/tools/toolkits/toolkits
 
 ## Collection information
 
