@@ -5,10 +5,10 @@
 - Repository: https://github.com/agno-agi/agno
 - Documentation: https://docs.agno.com/introduction
 - Self-hosted agent UI: https://docs.agno.com/agent-ui/introduction
-- Supported models: https://docs.agno.com/models/introduction
-- Model compatibility: https://docs.agno.com/models/compatibility
-- Model usage examples (see left sidebar for more): https://docs.agno.com/models/openai-like
-- Available built-in toolkits: https://docs.agno.com/tools/toolkits/toolkits
+- Supported models: https://docs.agno.com/concepts/models/introduction
+- Model compatibility: https://docs.agno.com/concepts/models/compatibility
+- Model usage examples (see left sidebar for more): https://docs.agno.com/concepts/models/openai-like
+- Available built-in toolkits: https://docs.agno.com/concepts/tools/toolkits/toolkits
 
 ## Collection information
 
