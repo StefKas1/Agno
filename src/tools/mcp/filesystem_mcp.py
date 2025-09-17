@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 # Might not work on Windows
 # 1. Add MCP server to .vscode/mcp.json
 # 2. Start MCP server
+# ^^ Both, 1. and 2. are not needed, Agno starts the MCP server directly via
+# stdio (standard input/output); simply initialize the MCPTools class with its command argument;
+# the command you pass is the one used to run the MCP server the agent will have access to
 
 
 async def run_agent(message: str) -> None:
