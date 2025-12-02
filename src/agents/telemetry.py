@@ -1,6 +1,5 @@
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
-from agno.tools.yfinance import YFinanceTools
 from dotenv import load_dotenv
 
 agent = Agent(
