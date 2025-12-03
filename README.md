@@ -5,7 +5,7 @@
 - Repository: https://github.com/agno-agi/agno
 - Documentation: https://docs.agno.com/introduction
 - Self-hosted agent UI: https://docs.agno.com/agent-ui/introduction
-- Supported models: https://docs.agno.com/concepts/models/introduction
+- Supported models: https://docs.agno.com/integrations/models/model-index
 - Supported storage databases: https://docs.agno.com/concepts/db/overview
 - Model compatibility: https://docs.agno.com/concepts/models/compatibility
 - Model usage examples (see left sidebar for more): https://docs.agno.com/concepts/models/openai-like
