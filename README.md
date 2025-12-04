@@ -11,6 +11,7 @@
 - Model usage examples (see left sidebar for more): https://docs.agno.com/concepts/models/openai-like
 - Available built-in toolkits: https://docs.agno.com/concepts/tools/toolkits/toolkits
 - MCP servers: https://github.com/modelcontextprotocol/servers?tab=readme-ov-file
+- Observability/OpenTelemetry: https://docs.agno.com/integrations/observability/overview
 
 ## Collection information
 
