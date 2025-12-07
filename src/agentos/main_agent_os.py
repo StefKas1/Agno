@@ -17,6 +17,15 @@ from dotenv import load_dotenv
 # async database connections, async pre/post hooks, etc.
 # This helps unlock maximum concurrency and performance when running your AgentOS.
 
+# 3. Install and run the local control plane (AgentUI; https://docs.agno.com/basics/agent-ui/overview):
+# a) cd src
+# a) Clone Agent UI: npx create-agent-ui@latest
+# b) Run agent-ui: cd agent-ui && npm run dev
+# c) Open: http://localhost:3000
+
+# Or 3. Use hosteed control plane: https://os.agno.com
+# And connect your running AgentOS
+
 assistant = Agent(
     name="Assistant",
     model=OpenAIChat(id="gpt-4o"),
